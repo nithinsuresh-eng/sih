@@ -7,7 +7,7 @@ import SearchResults     from './pages/SearchResults';
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/sih">
       <Routes>
         <Route path="/"               element={<LandingPage />} />
         <Route path="/customer"       element={<CustomerDashboard />} />
