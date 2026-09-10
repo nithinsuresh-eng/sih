@@ -1,0 +1,10 @@
+.top-border {
+  width: 100%;
+  height: 14px;
+  display: flex;
+  flex-shrink: 0;
+}
+.border-segment {
+  flex: 1;
+  height: 100%;
+}
